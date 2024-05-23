@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: rgb(86, 11, 97);
-    color: white;
+    background-color: rgb(11, 244, 155);
+    color: rgb(12, 12, 12);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -23,16 +23,22 @@ body{
 }
 
 .box{
+    
     padding: 5px;
-    border: 1px dashed black;
+    border: 10px dashed rgb(180, 56, 56);
     width: 300px;
 }
 
 .box p span{
-    color: rgb(229, 21, 142);
+    color: rgb(229, 21, 21);
     text-transform: capitalize;
 }
 
 .box p {
     font-weight: 200;
+}
+
+#input-container{
+    padding: 50px;
+    text-align: center;
 }
